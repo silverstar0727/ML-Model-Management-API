@@ -4,3 +4,10 @@
 
 API 호출 방법은 다음의 문서를 참조
 http://localhost:8080/swagger/
+
+~~~
+cd mma
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+~~~
